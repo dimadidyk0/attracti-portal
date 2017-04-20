@@ -1,0 +1,124 @@
+.header {
+    background-color: #fff;
+    height: 414px;
+    margin-bottom: 30px;
+}
+
+// videos
+.header__background {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 414px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.header__video-block {
+    width: 244px;
+    position: relative;
+}
+
+.header__video-block p {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 27px;
+    font-size: 14px;
+    line-height: 18px;
+    right: 27px;
+    min-height: 80px;
+    opacity: 0;
+    transition: all 1s ease-in 0.4s;
+}
+
+.header__video-block:last-of-type {
+    width: 245px;
+}
+
+.header__video-block video {
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+.header__video-layout {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-blend-mode: multiply;
+    opacity: 1;
+    // top: 0;
+    -webkit-transition: all 1s ease-in 0.4s;
+    transition: all 1s ease-in 0.4s;
+}
+
+.header__video-block--current {
+    .header__video-layout {
+        opacity: 0;
+        // top: -100%;
+    }
+    p {
+        opacity: 1;
+    }
+}
+
+// main 
+.header__nav {
+    position: relative;
+    padding-top: 23px;
+}
+
+.header__nav-list {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    color: white;
+}
+
+.header__nav-item {
+    line-height: 23px;
+    font-size: 16px;
+    padding-right: 31px;
+    font-weight: 500;
+}
+
+.header__link-to-main {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.header-logo {
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 100%;
+    background: url(../img/logo.svg) no-repeat;
+    height: 77px;
+    width: 530px;
+    margin: 133px auto 0;
+    left: 4px;
+    letter-spacing: 2px;
+}
+
+.header__link-to-main+.header-logo {
+    font-size: 120px;
+    line-height: 163px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 79px;
+    background: none;
+    left: 0;
+    margin: 0;
+    height: auto;
+    text-indent: 0;
+    width: auto;
+}

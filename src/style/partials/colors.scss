@@ -1,0 +1,38 @@
+ [data-project="m3cyber"] {
+     .sidebar__tag,
+     .footer,
+     .sidebar__subscribe-btn,
+     .header__video-layout,
+     .sidebar .networks__item-header {
+         background-color: $m3cyber;
+     }
+     .item .hashtag {
+         color: $m3cyber;
+     }
+ }
+ 
+ [data-project="cards"] {
+     .sidebar__tag,
+     .footer,
+     .sidebar__subscribe-btn,
+     .header__video-layout,
+     .sidebar .networks__item-header {
+         background-color: $cards;
+     }
+     .item .hashtag {
+         color: $cards;
+     }
+ }
+ 
+ [data-project="attracti"] {
+     .sidebar__tag,
+     .footer,
+     .sidebar__subscribe-btn,
+     .header__video-layout,
+     .sidebar .networks__item-header {
+         background-color: $attracti;
+     }
+     .item .hashtag {
+         color: $attracti;
+     }
+ }
