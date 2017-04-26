@@ -164,6 +164,18 @@
     text-transform: uppercase;
 }
 
+.item__category--m3cyber {
+    color: $m3cyber;
+}
+
+.item__category--cards {
+    color: $cards;
+}
+
+.item__category--attracti {
+    color: $attracti;
+}
+
 .item__header {
     padding: 9px 0 15px 0;
     font-size: 22px;
@@ -474,4 +486,125 @@ blockquote:after {
 
 .sidebar__download-btn:last-of-type {
     margin-bottom: 40px;
+}
+
+.founder-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.founder {
+    width: 474px;
+    height: 306px;
+    background: white;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    display: flex;
+    padding: 40px 0 30px 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.founder__main {
+    padding: 25px 0 0 0;
+    width: 290px;
+}
+
+.founder__name {
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.founder__subheader {
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 23px;
+    text-transform: uppercase;
+}
+
+.founder__text {
+    font-size: 15px;
+    line-height: 21px;
+    color: #838383;
+}
+
+.founder__links {
+    padding-top: 24px;
+    display: flex;
+    a {
+        height: 28px;
+        width: 28px;
+        margin-right: 26px;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.founder__img {
+    width: 66px;
+    height: 225px;
+    overflow: hidden;
+    img {
+        height: 100%;
+    }
+}
+
+.founder-video {
+    background: white;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 65px;
+    height: 233px;
+}
+
+.founder-video__main {
+    padding-top: 25px;
+    width: 260px;
+    padding-right: 95px;
+    .founder__links {
+        padding-top: 21px;
+    }
+}
+
+.founder-video__name {
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.founder-video__subheader {
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.founder-video__text {
+    font-size: 14px;
+    line-height: 21px;
+    color: #272D30;
+}
+
+.founder-video__block {
+    display: flex;
+    justify-content: space-between;
+    .video-block {
+        width: 133px;
+        margin-left: 1px;
+        height: 100%;
+        position: relative;
+    }
+    video {
+        height: 100%;
+    }
+}
+
+.video-layout {
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }

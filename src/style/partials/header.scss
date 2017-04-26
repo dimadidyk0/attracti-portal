@@ -38,13 +38,13 @@
     width: 245px;
 }
 
-.header__video-block video {
+.video-block video {
     height: 100%;
     width: 100%;
     background: black;
 }
 
-.header__video-layout {
+.video-layout {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -56,8 +56,8 @@
     transition: all 1s ease-in 0.4s;
 }
 
-.header__video-block--current {
-    .header__video-layout {
+.video-block--current {
+    .video-layout {
         opacity: 0;
         // top: -100%;
     }
@@ -98,7 +98,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-indent: 100%;
-    background: url(../img/logo.svg) no-repeat;
+    background: url(/img/logo.svg) no-repeat;
     height: 77px;
     width: 530px;
     margin: 133px auto 0;
