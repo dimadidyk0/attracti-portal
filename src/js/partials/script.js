@@ -46,4 +46,14 @@ window.onload = function() {
             thisDoc.removeEventListener('scroll', activateFounderVideo);
         }
     }
+
+    let albums = document.querySelectorAll('.item__album');
+    albums.forEach(a => {
+        let images = a.querySelectorAll('div');
+        if (images.length > 12) {
+            let count = document.createElement('p');
+            count.innerHTML = `${images.length} images`
+            images[11].appendChild(count);
+        }
+    });
 }
